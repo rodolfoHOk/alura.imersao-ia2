@@ -253,7 +253,9 @@ Nesta aula, você vai:
 
 ### Código fonte da aula
 
-- [Código fonte](/files/aula-04/alura_imersao_ia2_aula4.py)
+- [Código fonte 1](/files/aula-04/alura_imersao_ia2_quickstart_colab.py)
+
+- [Código fonte 2](/files/aula-04/alura_imersao_ia2_aula4.py)
 
 ### Links da aula
 
