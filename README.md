@@ -183,3 +183,126 @@ Resposta:”
 - Escolha 10 textos do seu site de notícias preferido. Apresente para o Google AI Studio o padrão dos títulos e das suas respectivas notícias e quando chegar no décimo primeiro texto, apresente somente a notícia e peça para ele gerar um título. Veja se existe alguma técnica ou padrão;
 
 - Faça parte da comunidade gratuita de desenvolvedores e de usuários da Google Cloud Innovators, acesse a plataforma [aqui](https://cloud.google.com/innovators?hl=pt-br)!
+
+## Aula 3: Explorando os parâmetros do Google AI Studio
+
+Nesta aula, vamos ver mais sobre o Google AI Studio e explorar seus parâmetros e configurações até o suporte do modelo multimodal que o Gemini nos dá, iniciando a automação desse modelo com as APIs.
+
+Nesta aula, você vai:
+
+- Conhecer os 3 tipos de prompts do Google AI Studio: chat prompts, freeform prompts e structured prompts;
+- Explorar os parâmetros do Google AI Studio;
+- Conhecer mais sobre os tokens e PLN;
+- Iniciar o contato com Python pelo Google Colab.
+
+### Prompts da aula
+
+- System Instruction: Você é um assistente muito sarcástico e que usa muitas gírias, message: Crie um e-mail convidando um amigo para ir em uma viagem pro Japão.
+
+- Escreva um tuíte curto sobre o Japão.
+
+- Escreva um texto sobre o Japão.
+
+- Encontre a palavra ou expressão fora de contexto desse áudio.
+
+- Transcreva o áudio inteiro. [Faça você o seu próprio áudio como desafio e realize esse prompt!]
+
+- Analise o vídeo e me diga de que ele trata. [Inserir vídeo do Gemini](https://www.youtube.com/watch?v=UIZAiXYceBI&ab_channel=Google)
+
+- Encontre o minuto e segundo do vídeo quando isso aparece. [Imagem usada no prompt]
+
+- Sou uma agência de viagens. Quero que você gere um itinerário de viagens com base no que foi mostrado nesse vídeo.
+  [Inserir vídeo do Fabrício](https://www.youtube.com/watch?v=dWO-9SyD7yc)
+
+- Descreva o que há nesse arquivo PDF. [Inserir PDF com o guia de Nara e Kyoto](https://drive.google.com/file/d/1vByLRS3AED7NxrkgLTl2Haay53lylopr/view?usp=sharing)
+
+- Relacione o que foi mostrado no vídeo com o que está contido neste arquivo PDF. Qual a intersecção? Defina especificamente. [Volte para o chat da viagem do Fabrício, adicione o guia de Nara e Kyoto]
+
+### Resultado dos prompts
+
+- [Resultados dos prompts da aula](/resultados-aula-03.md)
+
+### Código fonte da aula
+
+- [Código fonte](/files/aula-03/alura_imersao_ia2_aula3.py)
+
+### Links da aula
+
+- [Galeria de prompts do Google AI Studio](https://ai.google.dev/examples?hl=pt-br)
+
+- [Google Colab](http://colab.research.google.com/)
+
+- [Vlog do Fabrício Carraro no Japão](https://www.youtube.com/watch?v=dWO-9SyD7yc)
+
+### Desafios desta aula
+
+- Criar seu próprio áudio e realizar um prompt para análise pelo Google AI Studio;
+
+- Pesquise como colocar a imagem do Google AI Studio dentro do código de Pyhton no Google Colab;
+
+- Pegue os códigos que não contenham imagens do AI Studio e exporte para o Google Colab.
+
+## Aula 4: Criando seu próprio chatbot com a Gemini API no Google Colab
+
+Nesta aula, vamos criar um chatbot com a Gemini API pelo Google Colab e descobrir como funciona a premiação de melhores projetos!
+
+Nesta aula, você vai:
+
+- Aprender a criar o seu próprio chatbot;
+- Saber como funciona a competição de projetos dessa Imersão.
+
+### Código fonte da aula
+
+- [Código fonte](/files/aula-04/alura_imersao_ia2_aula4.py)
+
+### Links da aula
+
+- [Guia de início rápido na API Gemini](https://ai.google.dev/gemini-api/docs/quickstart?hl=pt-br)
+
+- Formulário de submissão do seu projeto [aqui](https://forms.gle/xtn8UvC8spvoWEr57)!
+
+- [IA Conference Brasil 2024](https://iaconferencebrasil.com.br/)
+
+### Desafios desta aula
+
+#### Deseja ir além? Envie seu projeto e concorra a prêmios:
+
+Para entender como a premiação vai funcionar, assista ao [tutorial](https://youtu.be/bLK66y0CcR8) e leia os passos abaixo. Não se esqueça de conferir o regulamento da premiação.
+
+1. Desenvolva um Projeto Relacionado à Aula 4 e/ou Aula 5 da Imersão IA 2ª Edição
+
+   O projeto deve estar relacionado ao conteúdo da Aula 4 e/ou Aula 5 da Imersão IA 2ª edição, organizada pela Alura em parceria com o Google.
+
+2. Uso Obrigatório da API Key do Google
+
+   É obrigatório o uso da API Key do Google ([acesse aqui](https://aistudio.google.com/app/apikey/?utm_source=website&utm_medium=referral&utm_campaign=Alura&utm_content=) para obter sua chave).
+
+3. Publicação do Projeto no GitHub
+
+   O projeto deve ser publicado no GitHub. Se precisar de ajuda para subir seu projeto, confira o tutorial [aqui](https://www.youtube.com/watch?v=9IiWoiBhWiA).
+
+4. Submissão do Projeto
+
+   A submissão do projeto deve ser feita através [deste formulário](https://forms.gle/xtn8UvC8spvoWEr57) entre os dias 09/05 e 11/05, até as 23h59.
+
+5. Publicação e Votação no Discord
+
+   O projeto será publicado no Servidor do Discord da Imersão IA 2024 para votação pela comunidade até 11/05, às 23h59.
+
+   A votação acontece no canal "#Votação". Dê estrelas no projeto que você mais gostou e conecte-se com outras pessoas para incentivá-las a votar no seu projeto.
+
+6. Avaliação pela Banca da Alura
+
+   Uma banca da Alura irá avaliar os 30 projetos mais votados para eleger os 10 primeiros colocados com base nos seguintes critérios:
+
+   - Utilidade do projeto.
+   - Criatividade.
+   - Eficácia.
+   - Apresentação.
+   - Ordem de envio.
+
+7. Anúncio dos Vencedores
+
+   O ranking final será divulgado na [live de encerramento](https://youtube.com/live/0x_WCLhen7Q) no YouTube no dia 13/05 às 18h30. Também será divulgado por e-mail para os vencedores e no [Guia de mergulho](https://grupoalura.notion.site/Imers-o-IA-Guia-de-Mergulho-41ae5fadd8fd47899167a115e96244d9).
+
+Para saber mais, confira o regulamento da premiação [aqui](https://docs.google.com/document/d/1lTk8UlujtcL4g87CWgyCItCZOLHOLYZ3/edit?usp=sharing&ouid=107556453766758279419&rtpof=true&sd=true)!
