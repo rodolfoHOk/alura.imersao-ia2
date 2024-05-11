@@ -308,3 +308,25 @@ Para entender como a premiação vai funcionar, assista ao [tutorial](https://yo
    O ranking final será divulgado na [live de encerramento](https://youtube.com/live/0x_WCLhen7Q) no YouTube no dia 13/05 às 18h30. Também será divulgado por e-mail para os vencedores e no [Guia de mergulho](https://grupoalura.notion.site/Imers-o-IA-Guia-de-Mergulho-41ae5fadd8fd47899167a115e96244d9).
 
 Para saber mais, confira o regulamento da premiação [aqui](https://docs.google.com/document/d/1lTk8UlujtcL4g87CWgyCItCZOLHOLYZ3/edit?usp=sharing&ouid=107556453766758279419&rtpof=true&sd=true)!
+
+# Aula 5: Criando um sistema para busca em documentos usando embeddings e a Gemini API
+
+Nesta última aula, vamos criar um sistema de buscas semânticas por meio de embeddings e do Google API.
+
+Nesta aula, você vai:
+
+- Fazer uma LLM (Large Language Model) para acessar documentos;
+
+- Criar um embedding pelo Google Colab.
+
+### Código fonte da aula
+
+- [Código fonte](/files/aula-05/alura_imersao_ia2_aula5.py)
+
+### Links da aula
+
+- [Guia de Embeddings](https://ai.google.dev/gemini-api/docs/embeddings?hl=pt-br)
+
+- [Gemini API: Embeddings QuickStart](https://colab.research.google.com/github/google-gemini/cookbook/blob/main/quickstarts/Embeddings.ipynb)
+
+- [Task Types (Tipos de Tarefas)](https://ai.google.dev/gemini-api/tutorials/document_search?hl=pt-br#api_changes_to_embeddings_with_model_embedding-001)
